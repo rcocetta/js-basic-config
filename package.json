@@ -1,0 +1,23 @@
+{
+  "name": "js-basic-config",
+  "version": "1.0.0",
+  "description": "Some js basic configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "lint": "eslint ."
+  },
+  "author": "R.Cocetta",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
